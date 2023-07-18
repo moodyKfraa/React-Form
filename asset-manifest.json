@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Form/static/css/main.ff072cff.css",
+    "main.js": "/React-Form/static/js/main.64e4fdb4.js",
+    "static/media/jungle-background-forest-nature-scene-futuristic-generative-ai.jpg": "/React-Form/static/media/jungle-background-forest-nature-scene-futuristic-generative-ai.af6990e89f70578308f8.jpg",
+    "index.html": "/React-Form/index.html",
+    "main.ff072cff.css.map": "/React-Form/static/css/main.ff072cff.css.map",
+    "main.64e4fdb4.js.map": "/React-Form/static/js/main.64e4fdb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff072cff.css",
+    "static/js/main.64e4fdb4.js"
+  ]
+}
