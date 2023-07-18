@@ -1,0 +1,71 @@
+form{
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.200);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.4);
+}
+form h1{
+    color: #eee;
+    width: fit-content;
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.4);
+    font-size: 35px;
+    margin: 0;
+}
+form .inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+form .inputs div{
+    position: relative;
+    flex: 1;
+}
+form .inputs div svg{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(28, 196, 145);
+}
+form .inputs input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.4);
+    width: 250px;
+    box-sizing: border-box;
+}
+form .inputs input:last-child{
+    width: 100px;
+}
+form .inputs input:focus{
+    outline: none;
+}
+form hr{
+    border: none;
+    background-color: #eee;
+    width: 70%;
+    height: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    margin: 0;
+}
+form .passwordReq ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+form .passwordReq ul li{
+    font-weight: 500;
+}
